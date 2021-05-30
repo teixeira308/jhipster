@@ -1,4 +1,4 @@
-# jhipster
+# jhipster - 37SCJ
 
 API baseado em Jhipster, Keycloak, API Gateway e RDS MySQL.
 
