@@ -1,0 +1,267 @@
+{
+	"info": {
+		"_postman_id": "e80a85b2-bdc6-4c9e-80cf-450a4bdb9e7f",
+		"name": "API - Tasks and Jobs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Tasks",
+			"item": [
+				{
+					"name": "Criar Task",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYyMjQzNDc2OX0.Qj-UfVpvb9MOJjgdEG44-SI3vzMSwKpw4ekvt0lp78DUmlnOEyIaiL04JRSTzWY2wSlROjex4UOtpVvcBf_LJw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"Gerar Scripts\",\r\n  \"description\": \"Favor gerar novos scripts conforme demanda do cliente.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ygcl8f6au6.execute-api.us-east-1.amazonaws.com/prod/tasks",
+							"protocol": "https",
+							"host": [
+								"ygcl8f6au6",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"prod",
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar todas tasks",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYyMjQzNDc2OX0.Qj-UfVpvb9MOJjgdEG44-SI3vzMSwKpw4ekvt0lp78DUmlnOEyIaiL04JRSTzWY2wSlROjex4UOtpVvcBf_LJw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://ygcl8f6au6.execute-api.us-east-1.amazonaws.com/prod/tasks",
+							"protocol": "https",
+							"host": [
+								"ygcl8f6au6",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"prod",
+								"tasks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar task definida",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"type": "text",
+								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYyMjQzNDc2OX0.Qj-UfVpvb9MOJjgdEG44-SI3vzMSwKpw4ekvt0lp78DUmlnOEyIaiL04JRSTzWY2wSlROjex4UOtpVvcBf_LJw"
+							}
+						],
+						"url": {
+							"raw": "https://ygcl8f6au6.execute-api.us-east-1.amazonaws.com/prod/tasks/2",
+							"protocol": "https",
+							"host": [
+								"ygcl8f6au6",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"prod",
+								"tasks",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Jobs",
+			"item": [
+				{
+					"name": "Criar Jobs",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-api-key",
+								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYyMjQzNDc2OX0.Qj-UfVpvb9MOJjgdEG44-SI3vzMSwKpw4ekvt0lp78DUmlnOEyIaiL04JRSTzWY2wSlROjex4UOtpVvcBf_LJw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"jobTitle\": \"Gerador de scripts\",\r\n  \"maxSalary\": 100,\r\n  \"minSalary\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ygcl8f6au6.execute-api.us-east-1.amazonaws.com/prod/jobs",
+							"protocol": "https",
+							"host": [
+								"ygcl8f6au6",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"prod",
+								"jobs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar todos os Jobs",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"type": "text",
+								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYyMjQzNDc2OX0.Qj-UfVpvb9MOJjgdEG44-SI3vzMSwKpw4ekvt0lp78DUmlnOEyIaiL04JRSTzWY2wSlROjex4UOtpVvcBf_LJw"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ygcl8f6au6.execute-api.us-east-1.amazonaws.com/prod/jobs",
+							"protocol": "https",
+							"host": [
+								"ygcl8f6au6",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"prod",
+								"jobs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar Jobs definido",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-api-key",
+								"type": "text",
+								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYyMjQzNDc2OX0.Qj-UfVpvb9MOJjgdEG44-SI3vzMSwKpw4ekvt0lp78DUmlnOEyIaiL04JRSTzWY2wSlROjex4UOtpVvcBf_LJw"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"jobTitle\": \"Gerador de scripts\",\r\n  \"maxSalary\": 100,\r\n  \"minSalary\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ygcl8f6au6.execute-api.us-east-1.amazonaws.com/prod/jobs/1",
+							"protocol": "https",
+							"host": [
+								"ygcl8f6au6",
+								"execute-api",
+								"us-east-1",
+								"amazonaws",
+								"com"
+							],
+							"path": [
+								"prod",
+								"jobs",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
