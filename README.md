@@ -8,5 +8,5 @@ Comandos para setup no EC2 AWS:
 cd apiweb/
 docker-compose -f src/main/docker/app.yml up
 
-#Video demonstração: 
+# Video demonstração: 
 https://youtu.be/h4U913WZj7I
