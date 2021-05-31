@@ -20,7 +20,7 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTYyMjQzNDc2OX0.Qj-UfVpvb9MOJjgdEG44-SI3vzMSwKpw4ekvt0lp78DUmlnOEyIaiL04JRSTzWY2wSlROjex4UOtpVvcBf_LJw",
+								"value": "Bearer ",
 								"type": "text"
 							}
 						],
