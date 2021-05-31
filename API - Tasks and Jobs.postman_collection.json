@@ -15,7 +15,7 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -58,7 +58,7 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -93,7 +93,7 @@
 							{
 								"key": "x-api-key",
 								"type": "text",
-								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh"
+								"value": ""
 							},
 							{
 								"key": "Authorization",
@@ -132,7 +132,7 @@
 						"header": [
 							{
 								"key": "x-api-key",
-								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh",
+								"value": "",
 								"type": "text"
 							},
 							{
@@ -179,7 +179,7 @@
 							{
 								"key": "x-api-key",
 								"type": "text",
-								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh"
+								"value": ""
 							},
 							{
 								"key": "Authorization",
@@ -225,7 +225,7 @@
 							{
 								"key": "x-api-key",
 								"type": "text",
-								"value": "rshOs6MCXtarINRSbACO327LqR2waEMQaLGp5ZLh"
+								"value": ""
 							},
 							{
 								"key": "Authorization",
